@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: pink;
+}
+
+.container {
+    max-width: 190rem;
+    margin: 0 auto;
+}
+
+.container-hero {
+    background: linear-gradient(100deg, #FFFFFF20, #000000);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    background: linear-gradient(100deg, pink, #ccc);
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2%;
+}
+
+.customer-support i {
+    font-size: 200%;
+}
+
+.content-customer-support {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10%;
+}
+
+.container-logo i {
+    font-size: 200%;
+}
+
+.container-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+.container-user {
+    display: flex;
+    font-size: 200%;
+    gap: 2rem;
+    padding-right: 2%;
+}
+
+.container-user a {
+    text-decoration: none;
+    color: black;
+    font-size: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar {
+    background-color: gainsboro;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding-left: 70%;
+}
+
+.menu li a {
+    font-weight: 600;
+    font-size: 130%;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Monaco;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.imagen {
+    margin-left: 25%;
+}
+
+/* Estilos para el formulario de comentarios */
+#contact {
+    padding: 20px;
+}
+
+.containerpx-4 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+    font-size: 125%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(100deg, pink, #ccc);
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 125%;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}

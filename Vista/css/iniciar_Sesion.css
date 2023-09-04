@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 190rem;
+    margin: 0 auto;
+}
+
+.container-hero {
+    background: linear-gradient(100deg, #FFFFFF20, #000000);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    background: linear-gradient(100deg, pink, #ccc);
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2%;
+}
+
+.customer-support i {
+    font-size: 200%;
+}
+
+.content-customer-support {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10%;
+}
+
+.container-logo i {
+    font-size: 200%;
+}
+
+.container-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+.container-user {
+    display: flex;
+    font-size: 200%;
+    gap: 2rem;
+    padding-right: 2%;
+}
+
+.container-user a {
+    text-decoration: none;
+    color: black;
+    font-size: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar {
+    background-color: gainsboro;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding-left: 70%;
+}
+
+.menu li a {
+    font-weight: 600;
+    font-size: 130%;
+    position: relative;
+    text-decoration: none;
+    color: k;
+    font-family: Monaco;
+    color: black;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.imagen {
+    margin-left: 25%;
+}
+
+.dos {
+    color: black;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 125%;
+}
+
+.Iniciar {
+    width: 500px;
+    background-color: black;
+    padding: 50px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 3%;
+    color: white;
+}
+
+.controles {
+    width: 97%;
+    background-color: black;
+    padding: 15px;
+    border: radius 5px;
+    margin-bottom: 16px;
+    color: white;
+    font-family: serif;
+    border-radius: 5%;
+    font-size: 120%;
+}
+
+.boton1 {
+    width: 100%;
+    background: linear-gradient(100deg, pink, #ccc);
+    color: black;
+    border: none;
+    padding: 12px;
+    font-family: serif;
+    font-size: 130%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.boton1:hover {
+    background-color: pink;
+}
+
+.Iniciar p {
+    text-align: center;
+}
+
+.Iniciar a {
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-size: 115%;
+}
+
+.Iniciar h1 {
+    text-align: center;
+    font-size: 150%;
+    font-family: serif;
+}
+
+.boton3 {
+    width: 100%;
+    background: linear-gradient(100deg, pink, #ccc);
+    color: black;
+    border: none;
+    border-radius: 5%;
+    font-family: serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 130%;
+}
+
+.boton3:hover {
+    background-color: pink;
+}
+
+.nav-menu a:after {
+    content: '';
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: black;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu a:hover:after {
+    transform-origin: left;
+    transform: scaleX(1);
+}

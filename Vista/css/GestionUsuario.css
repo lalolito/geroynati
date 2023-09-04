@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: url(../img/Fondo2.jpg);
+    background-size: cover;
+}
+header{
+    font-family: ´Roboto´,sans-serif  ;
+    
+    
+}
+.logo-header img{
+    width: 150px;
+}
+header{
+    background-color:black ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .9rem 2rem;
+}
+.nav-menu {
+    align-items: center;
+  
+  
+}
+.nav-menu a:hover{
+    color: aquamarine;
+   
+}
+
+
+ .nav-menu a:last-child:hover{
+    background-color: transparent;
+    border: solid 2px;
+}
+main{
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left:45%;
+    width:40%;
+    border-style: solid;
+    transform: translateX(-40%) translateY(-30%);
+    
+   
+}
+
+.dos{
+    color:white;
+    margin-left:62px;
+    margin-top: 27px;
+    font-size:14px;
+}
+
+.form{
+    width: 400px;
+    
+    background-color:black;
+    padding: 30px;
+    margin:auto;
+    margin-top:100px;
+    border-radius:3%;
+    color:white;
+    
+}
+.boton1{
+    width: 100%;
+    background-color:blue;
+    color:white;
+    border:none;
+    padding: 12px;
+    font-family:serif;
+    font-size:130%;
+    text-align: center;
+    border-radius:5%;
+    margin-bottom:40px;
+    margin-top:40px;;
+}
+
+.boton2{
+    width: 100%;
+    background-color:blue;
+    color:white;
+    border:none;
+    padding: 12px;
+    font-family:serif;
+    font-size:130%;
+    text-align: center;
+    border-radius:5%;
+    margin-bottom:40px;
+}
+
+.boton3{
+    width: 100%;
+    background-color:blue;
+    color:white;
+    border:none;
+    padding: 12px;
+    font-family:serif;
+    font-size:130%;
+    text-align: center;
+    border-radius:5%;
+    margin-bottom:40px;
+}
+
+
+.boton1:hover{
+    background-color:rgb(46, 46, 216);
+    }
+    
+.boton2:hover{
+    background-color:rgb(46, 46, 216);
+    }
+    
+    
+.boton3:hover{
+    background-color:rgb(46, 46, 216);
+    }
+    
+.form h1{
+        text-align: center;
+        font-size:150%;
+        font-family:serif;
+       
+        
+        
+        }
+
+  .form a{
+
+     color:white;
+     text-decoration:none;
+      font-family:serif;
+    font-size:115%;
+            
+        }      
+         
+.form p{
+    
+
+    text-align: center;
+    
+    }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrarse</title>
+<link rel="icon" href="vista/img/logos.ico">
+<link rel="stylesheet" href="Vista\css\Registrarse.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-phone"></i> 
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                   <span class="number">123234</span>
+                    </div>
+                    </div>
+                    <div class="container-logo">
+                        <i class="fa-solid fa-store"></i>
+                    <h1 class="logo"><a href="index.html">Gero y Natis</a></h1>
+                </div>
+<div class="container-user">
+
+    <i class="fa-solid fa-shirt"></i>
+<h1 class="logo"><a href="">ropa</a></h1>
+</div>
+
+             </div>
+            </div>
+          <div class="container-navbar">
+            
+          <nav class="navbar container">
+            <ul class="menu">
+
+                
+                <li><a href="index.html">Inicio</a></li>
+                 
+               
+             </ul>
+             
+          </nav>
+        </div>
+      
+    </header>
+    <section class="form">
+        <form action="hndc_registrar.php" method="post" class="form-register" onsubmit="returnvalidar();">
+            <h1>Formulario Registro</h1>
+            <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
+            <input  class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos" required >
+            <input  class="controls" type="text" name="Telefono" id="Telefono" placeholder="Telefono" required>
+            <input class="controls" type="email" name="Correo" id="Correo" placeholder="Correo" required>
+           
+        
+            <input class="controls"  type="Password" name="Password" id="Password" placeholder="Password" required>
+            <input  class="boton" type="submit" name="enviar" id="btnregistrarse" value="Registrarse">
+        </form>
+     
+        
+        
+        <form action="index.html">
+            <input  class="boton2" type="submit" name="btnCancelar" id="btnCancelar" value="Cancelar">
+        </form>
+
+        <form>
+            <P><a   href="iniciar_sesion.html">¿Ya tengo cuenta?</a></P>
+        </form>
+    </form>
+    </section>
+    <script src="https://kit.fontawesome.com/81581fb069.js"
+    crossorigin="anonymous">
+        
+    </script>
+
+</body>
+</html>
+

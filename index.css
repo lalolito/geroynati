@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 190rem;
+    margin: 0 auto;
+}
+
+.container-hero {
+    background: linear-gradient(100deg, #FFFFFF20, #000000);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    background: linear-gradient(100deg, pink, #ccc);
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2%;
+}
+
+.customer-support i {
+    font-size: 200%;
+}
+
+.content-customer-support {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10%;
+}
+
+.container-logo i {
+    font-size: 200%;
+}
+
+.container-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+.container-user {
+    display: flex;
+    font-size: 200%;
+    gap: 2rem;
+    padding-right: 2%;
+}
+
+.container-user a {
+    text-decoration: none;
+    color: black;
+    font-size: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar {
+    background-color: gainsboro;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding-left: 70%;
+}
+
+.menu li a {
+    font-weight: 600;
+    font-size: 130%;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Monaco;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.imagen {
+    margin-left: 25%;
+}
+
+.banner {
+    background-image: linear-gradient(100deg, #FFFFFF20, #B0B0B0), url('Vista/img/Fondo1.png');
+    height: 35rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.card-feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: gainsboro;
+    border-radius: 1rem;
+    padding: 1.5rem 0;
+    border-left: 30%;
+}
+
+.card-feature i {
+    font-size: 300%;
+    color: palevioletred;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-feature span {
+    font-size: 138%;
+}
+
+.content-banner {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 10% 0;
+    padding-left: 9%;
+}
+
+.content-banner p {
+    color: black;
+    font-size: 3.95rem;
+    padding-top: 0;
+    padding-left: 29%;
+}
+
+.content-banner h2 {
+    font-size: 7.5rem;
+    font-style: italic;
+    font-weight: 20;
+}
+
+.pie-pagina {
+    width: 100%;
+    background: linear-gradient(100deg, pink, #ccc);
+}
+
+.pie-pagina .grupo-1 {
+    max-width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20%;
+    padding: 40px;
+}
+
+.pie-pagina img {
+    width: 70%;
+}
+
+.pie-pagina h2 {
+    margin-bottom: 15%;
+}
+
+.pie-pagina p {
+    margin-bottom: 25px;
+}
+
+.pago {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.pago i {
+    margin-right: 10px;
+    font-size: 150%;
+}
+
+.pago p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.grupo-2 p {
+    display: flex;
+    justify-content: center;
+}
+
+.grupo-2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}

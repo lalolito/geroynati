@@ -1,0 +1,228 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 190rem;
+    margin: 0 auto;
+}
+
+.container-hero {
+    background: linear-gradient(100deg, #FFFFFF20, #000000);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+    background: linear-gradient(100deg, pink, #ccc);
+}
+
+.customer-support {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 2%;
+}
+
+.customer-support i {
+    font-size: 200%;
+}
+
+.content-customer-support {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10%;
+}
+
+.container-logo i {
+    font-size: 200%;
+}
+
+.container-logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+.container-user {
+    display: flex;
+    font-size: 200%;
+    gap: 2rem;
+    padding-right: 2%;
+}
+
+.container-user a {
+    text-decoration: none;
+    color: black;
+    font-size: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar {
+    background-color: gainsboro;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding-left: 70%;
+}
+
+.menu li a {
+    font-weight: 600;
+    font-size: 130%;
+    position: relative;
+    text-decoration: none;
+    color: k;
+    font-family: Monaco;
+    color: black;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.imagen {
+    margin-left: 25%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    background: rgb(255, 255, 255);
+}
+
+th {
+    background: pink;
+    height: 40px;
+    font-weight: lighter;
+    text-shadow: 0 1px 0 #fa7e93;
+    color: rgb(0, 0, 0);
+    transition: all 0.2s;
+    font-size: 18px;
+}
+
+tr {
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    transition: all 0.2s;
+    font-size: 14px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+a,
+input[type="submit"],
+button {
+    font-size: 14px;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    background-color: pink;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+hr {
+    width: 96%;
+}
+
+.contenedor_pruductos {
+    float: left;
+    background: white;
+    position: relative;
+    margin: 1%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 40px;
+    margin-bottom: 4%;
+}
+
+.contenedor_general {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 0 80px;
+}
+
+.imagen_peque {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    border: #e0e0e0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input[type="text"] {
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.contenedor_pruductos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-logo h1.logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a {
+    font-weight: 600;
+    font-size: 130%;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Monaco;
+}
+
+.menu li a:hover {
+    color: black;
+}
